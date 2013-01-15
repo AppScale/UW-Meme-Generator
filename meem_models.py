@@ -128,7 +128,7 @@ class BetaTicket(db.Model):
 
 
 def code_is_valid(code):
-    return BetaTicket.all().filter('code =', code).get()
+    return True
  
 
 class URICounter(db.Model):
